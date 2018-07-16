@@ -14,7 +14,7 @@ function addElementToEndOfArray(array, element) {
 }
 
 function destructivelyAddElementToEndOfArray(array, element) {
-  var array = // we can assign it to the existing `cities` variable
-array = ["Philadelphia", ...cities]
+  var array = [ ...array, element]
+  return array
 }
 
